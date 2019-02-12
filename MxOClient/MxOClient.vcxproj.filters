@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Src\Engine\Camera.cpp" />
+    <ClCompile Include="Src\Engine\Collison.cpp" />
+    <ClCompile Include="Src\Engine\CppGame.cpp" />
+    <ClCompile Include="Src\Engine\Maths.cpp" />
+    <ClCompile Include="Src\Engine\Mesh.cpp" />
+    <ClCompile Include="Src\Engine\Music.cpp" />
+    <ClCompile Include="Src\Engine\ObjReader.cpp" />
+    <ClCompile Include="Src\Engine\Player.cpp" />
+    <ClCompile Include="Src\Engine\Random.cpp" />
+    <ClCompile Include="Src\Engine\Shader.cpp" />
+    <ClCompile Include="Src\Engine\Sound.cpp" />
+    <ClCompile Include="Src\Engine\Texture.cpp" />
+    <ClCompile Include="Src\Engine\Window.cpp" />
+    <ClCompile Include="Src\MXOFile\MxOLoader.cpp" />
+    <ClCompile Include="Src\MXOFile\TxaTexture.cpp" />
+    <ClCompile Include="Src\MXOFile\MgaMesh.cpp" />
+    <ClCompile Include="Src\MXOFile\Moa.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\Engine\Camera.h" />
+    <ClInclude Include="Src\Engine\Collision.h" />
+    <ClInclude Include="Src\Engine\Common.h" />
+    <ClInclude Include="Src\Engine\CppGame.h" />
+    <ClInclude Include="Src\Engine\GLCommon.h" />
+    <ClInclude Include="Src\Engine\Maths.h" />
+    <ClInclude Include="Src\Engine\Mesh.h" />
+    <ClInclude Include="Src\Engine\Music.h" />
+    <ClInclude Include="Src\Engine\ObjReader.h" />
+    <ClInclude Include="Src\Engine\Player.h" />
+    <ClInclude Include="Src\Engine\Random.h" />
+    <ClInclude Include="Src\Engine\Shader.h" />
+    <ClInclude Include="Src\Engine\Sound.h" />
+    <ClInclude Include="Src\Engine\Texture.h" />
+    <ClInclude Include="Src\Engine\Window.h" />
+    <ClInclude Include="Src\MXOFile\MxOLoader.h" />
+    <ClInclude Include="Src\MXOFile\TxaTexture.h" />
+    <ClInclude Include="Src\Engine\MemoryInputStream.h" />
+    <ClInclude Include="Src\MXOFile\MgaMesh.h" />
+    <ClInclude Include="Src\Engine\Lighting\DirectionalLight.h" />
+    <ClInclude Include="Src\MXOFile\Moa.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\shaders\Batched.shader" />
+    <None Include="Data\shaders\Main.shader" />
+  </ItemGroup>
+</Project>
